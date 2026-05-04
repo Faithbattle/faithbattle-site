@@ -1,0 +1,21 @@
+[
+  {
+    "deckId": "1",
+    "gamePlan": "Controle o campo até estabilizar e vencer por vantagem acumulada.",
+    "openingHand": "Priorize heróis de custo 2 e um milagre de suporte.",
+    "howToPlay": "Estabeleça presença cedo, pressione no mid game e finalize no late.",
+    "strengths": [
+      "Boa consistência",
+      "Controle de mesa forte",
+      "Resiliência no late game"
+    ],
+    "weaknesses": [
+      "Dependente de combo inicial",
+      "Fraco contra rush agressivo"
+    ],
+    "winConditions": [
+      "Pressão contínua com heróis",
+      "Finalização com artefato chave"
+    ]
+  }
+]

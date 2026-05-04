@@ -1,0 +1,225 @@
+/* ================================
+   MODERN TCG CARD LIST
+   SAFE MODE (JS FRIENDLY)
+   ================================ */
+
+.product-page.spad {
+  padding-top: 24px;
+}
+
+/* --- FILTERS AREA (visual sidebar illusion) --- */
+#filters,
+#selected-filters {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+  padding: 14px;
+  margin-bottom: 16px;
+}
+
+/* Grid feel for filters */
+#filters {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+@media (max-width: 992px) {
+  #filters {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 576px) {
+  #filters {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Labels */
+#filters label {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .3px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.7);
+}
+
+/* Inputs */
+#filters select,
+#filters input {
+  width: 100%;
+  min-height: 42px;
+  background: rgba(0,0,0,.25);
+  border: 1px solid rgba(255,255,255,.15);
+  border-radius: 12px;
+  color: #fff;
+  padding: 8px 10px;
+}
+
+/* Selected filters pills */
+#selected-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+#selected-filters > * {
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* --- PRODUCTS GRID (DO NOT TOUCH CONTAINER) --- */
+#products-container {
+  margin-top: 24px;
+}
+
+/* Cards */
+#products-container .product__item,
+#products-container .anime__item,
+#products-container .card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.12);
+  /* border-radius: 18px; */
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,.45);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+#products-container .product__item:hover,
+#products-container .anime__item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 45px rgba(0,0,0,.6);
+}
+
+/* Images */
+#products-container img {
+  width: 100%;
+  display: block;
+}
+
+/* Titles */
+#products-container h5,
+#products-container h4 {
+  font-weight: 800;
+  font-size: 13px;
+  margin: 8px 0 0;
+}
+
+/* --- PAGINATION --- */
+#pagination-container {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+#pagination-container a,
+#pagination-container button {
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.15);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 12px;
+  font-weight: 800;
+  color: #fff;
+}
+
+/* =========================
+   MODERN TCG CARD
+   ========================= */
+
+.tcg-card{
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 16px;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 30px rgba(0,0,0,.45);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.tcg-card:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 18px 48px rgba(0,0,0,.6);
+}
+
+/* Image */
+.tcg-card-media{
+  position: relative;
+  padding-top: 140%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Badges */
+.tcg-badge{
+  position: absolute;
+  top: 8px;
+  padding: 4px 8px;
+  font-size: 11px;
+  font-weight: 900;
+  border-radius: 999px;
+  background: rgba(0,0,0,.65);
+  border: 1px solid rgba(255,255,255,.2);
+}
+.tcg-cost{ left: 8px; }
+.tcg-stars{ right: 8px; }
+
+/* Body */
+.tcg-card-body{
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.tcg-card-title{
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.tcg-card-meta{
+  font-size: 11px;
+  color: rgba(255,255,255,.65);
+}
+
+/* Categories */
+.tcg-card-categories{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.tcg-card-categories span{
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.12);
+}
+
+/* Stats */
+.tcg-card-stats{
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+/* Footer */
+.tcg-card-footer{
+  margin-top: auto;
+  padding: 8px 12px;
+  border-top: 1px solid rgba(255,255,255,.1);
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: rgba(255,255,255,.7);
+}

@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>TCG – Dashboard</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="logo">TCG</div>
+    <div>
+      <div class="title">Dashboard de Coleções</div>
+      <div class="subtitle">Insights calculados dinamicamente a partir das cartas</div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <label class="field">
+      <span>Coleção</span>
+      <select id="collectionSelect"></select>
+    </label>
+  </div>
+</header>
+
+<main class="layout">
+  <section class="card tabsCard">
+    <div class="tabs">
+      <button class="tabBtn isActive" data-tab="comparativos">Comparativos</button>
+      <button class="tabBtn" data-tab="colecao">Coleção selecionada</button>
+      <div class="tabHint">Comparação sempre contra a <span class="kbd">média geral</span> (todas as coleções).</div>
+    </div>
+  </section>
+
+  <section class="tabPanel" data-tab="comparativos">
+    <section class="card panel">
+      <div class="panelHead">
+        <h2>Comparativos gerais (vs média)</h2>
+        <div class="panelTag">barras + radar</div>
+      </div>
+
+      <div class="grid4" id="kpiComparativos"></div>
+      <div class="spacer"></div>
+
+      <div class="grid3">
+        <section class="card miniPanel">
+          <div class="miniHead">
+            <div class="miniTitle">Total de cartas</div>
+            <div class="miniMeta">ranking</div>
+          </div>
+          <div id="chartTotal" class="bars"></div>
+        </section>
+
+        <section class="card miniPanel">
+          <div class="miniHead">
+            <div class="miniTitle">Custo médio</div>
+            <div class="miniMeta">ranking</div>
+          </div>
+          <div id="chartCost" class="bars"></div>
+        </section>
+
+        <section class="card miniPanel">
+          <div class="miniHead">
+            <div class="miniTitle">Poder (F+R)</div>
+            <div class="miniMeta">ranking</div>
+          </div>
+          <div id="chartPower" class="bars"></div>
+        </section>
+
+        <section class="card miniPanel">
+          <div class="miniHead">
+            <div class="miniTitle">Força média</div>
+            <div class="miniMeta">ranking</div>
+          </div>
+          <div id="chartForca" class="bars"></div>
+        </section>
+
+        <section class="card miniPanel">
+          <div class="miniHead">
+            <div class="miniTitle">Resistência média</div>
+            <div class="miniMeta">ranking</div>
+          </div>
+          <div id="chartRes" class="bars"></div>
+        </section>
+
+        <section class="card miniPanel">
+          <div class="miniHead">
+            <div class="miniTitle">Eficiência (Poder/Custo)</div>
+            <div class="miniMeta">insight</div>
+          </div>
+          <div id="chartEff" class="bars"></div>
+        </section>
+      </div>
+
+      <div class="spacer"></div>
+
+      <section class="card radarWrap">
+        <div class="panelHead">
+          <h3>Radar (todas as coleções)</h3>
+          <div class="panelTag">normalizado 0–1</div>
+        </div>
+        <canvas id="radar" height="360"></canvas>
+        <div id="radarLegend" class="legend"></div>
+      </section>
+
+      <div class="spacer"></div>
+
+      
+      <div class="spacer"></div>
+
+      <section class="card panel">
+        <div class="panelHead">
+          <h3>Comparativos por Função</h3>
+          <div class="panelTag">quantidade + custo médio</div>
+        </div>
+        <div class="grid2">
+          <div>
+            <h4 class="subhead">Quantidade (vs média)</h4>
+            <div id="cmpFuncQty"></div>
+          </div>
+          <div>
+            <h4 class="subhead">Custo médio (vs média)</h4>
+            <div id="cmpFuncCost"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="spacer"></div>
+
+      <section class="card panel">
+        <div class="panelHead">
+          <h3>Distribuições</h3>
+          <div class="panelTag">tipo + custo</div>
+        </div>
+        <div class="grid2">
+          <div>
+            <h4 class="subhead">Tipos (ranking)</h4>
+            <div id="cmpTypeTotals" class="bars"></div>
+          </div>
+          <div>
+            <h4 class="subhead">Faixas de custo (ranking)</h4>
+            <div id="cmpCostBuckets" class="bars"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="spacer"></div>
+      
+
+    </section>
+  </section>
+
+  <section class="tabPanel" data-tab="colecao" hidden>
+    <section class="card panel">
+      <div class="panelHead">
+        <h2>Cartas da coleção</h2>
+        <div class="panelTag" id="cardsCount">—</div>
+      </div>
+      
+      <div id="colKpis" class="grid4"></div>
+
+      <div class="spacer"></div>
+
+      <div class="grid2">
+        <section class="card panel">
+          <div class="panelHead">
+            <h3>Funções – Quantidade</h3>
+            <div class="panelTag">coleção</div>
+          </div>
+          <div id="colFuncQty"></div>
+        </section>
+
+        <section class="card panel">
+          <div class="panelHead">
+            <h3>Funções – Custo médio</h3>
+            <div class="panelTag">coleção</div>
+          </div>
+          <div id="colFuncCost"></div>
+        </section>
+
+        <section class="card panel">
+          <div class="panelHead">
+            <h3>Tipos – Totais</h3>
+            <div class="panelTag">coleção</div>
+          </div>
+          <div id="colTypeTotals" class="bars"></div>
+        </section>
+
+        <section class="card panel">
+          <div class="panelHead">
+            <h3>Faixas de custo</h3>
+            <div class="panelTag">coleção</div>
+          </div>
+          <div id="colCostBuckets" class="bars"></div>
+        </section>
+      </div>
+
+      <div class="spacer"></div>
+
+      <div class="tableTools">
+
+        <label class="field small">
+          <span>Buscar</span>
+          <input id="searchInput" type="search" placeholder="nome, tipo, categoria…" />
+        </label>
+        <label class="field small">
+          <span>Tipo</span>
+          <select id="typeFilter">
+            <option value="">Todos</option>
+          </select>
+        </label>
+        <label class="field small">
+          <span>Ordenar</span>
+          <select id="sortSelect">
+            <option value="nome">Nome (A→Z)</option>
+            <option value="custo_asc">Custo (↑)</option>
+            <option value="custo_desc">Custo (↓)</option>
+            <option value="forca_desc">Força (↓)</option>
+            <option value="res_desc">Resistência (↓)</option>
+          </select>
+        </label>
+      </div>
+      <div id="cardsTable"></div>
+    </section>
+  </section>
+</main>
+
+<footer class="footer">
+  <span>Para adicionar uma coleção: crie <code>data/novacolecao.json</code> (apenas cartas) e inclua 1 item no <code>data/index.json</code>.</span>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

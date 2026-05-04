@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Faith Battle">
+    <meta name="keywords" content="Anime, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>⚔️ Faith Battle 🛡️ | O Card Game Bíblico</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/plyr.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/card-details.css" type="text/css">
+
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header__logo">
+                        <a href="./index.html">
+                            <img src="img/logo.png" alt="" style="max-height: 50px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="header__nav">
+                        <nav class="header__menu mobile-menu">
+                            <ul>
+                                <li><a href="./index.html">Homepage</a></li>
+                                <li><a href="./how-to-play.html">Como Jogar</a></li>
+                                <li class="active"><a href="./card-list.html">Conheça as Cartas <span
+                                            class="arrow_carrot-down"></span></a>
+                                    <ul class="dropdown">
+                                        <li><a href="./deck-builder.html">Deckbuilder</a></li>
+                                        <li><a href="./card-list.html">Lista de Cards</a></li>
+                                        <li><a href="./deck-meta.html">Decks do Meta</a></li>
+                                        <!-- <li><a href="./deck-community.html">Decks da Comunidade</a></li> -->
+                                        <!-- <li><a href="./deck-historic.html">Decks Históricos</a></li> -->
+                                        <!-- <li><a href="./anime-watching.html">Anime Watching</a></li> -->
+                                        <!-- <li><a href="./blog-details.html">Blog Details</a></li> -->
+                                        <!-- <li><a href="./signup.html">Sign Up</a></li> -->
+                                        <!-- <li><a href="./login.html">Login</a></li> -->
+                                    </ul>
+                                </li>
+                                <li><a href="./review-instagram.html">Galeria <span
+                                            class="arrow_carrot-down"></span></a>
+                                    <ul class="dropdown">
+                                        <li><a href="./review-instagram.html">Instagram</a></li>
+                                        <li><a href="./review-youtube.html">Youtube</a></li>
+                                        <li><a href="./gallery-gameplays.html">Gameplays</a></li>
+                                    </ul>
+                                </li>
+                                <!-- <li><a href="./champions-hall.html">Hall dos Campeões</a></li> -->
+                                <li><a href="http://www.faithbattleloja.com.br/">Loja</a></li>
+                                <!-- <li><a href="./blog.html">Our Blog</a></li> -->
+                                <!-- <li><a href="#">Contacts</a></li> -->
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <!-- <div class="header__right">
+                        <a href="#" class="search-switch"><span class="icon_search"></span></a>
+                        <a href="./login.html"><span class="icon_profile"></span></a>
+                    </div> -->
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+
+    <!-- Anime Section Begin -->
+    <section class="card-details spad fb-card-page">
+        <div class="container">
+
+            <div class="fb-tabs fb-tabs--main" role="tablist" aria-label="Seções do card">
+
+                <a class="fb-back" href="./card-list.html"> Voltar</a>
+
+                <button class="fb-tab is-active" type="button" data-fb-main-tab="info"
+                    aria-selected="true">Informações</button>
+                <!-- <button class="fb-tab" type="button" data-fb-main-tab="description"
+                    aria-selected="false">Descrição</button> -->
+                <button class="fb-tab" type="button" data-fb-main-tab="decklist" aria-selected="false">Deck
+                    List</button>
+                <button class="fb-tab" type="button" data-fb-main-tab="alternatives"
+                    aria-selected="false">Alternativas</button>
+
+            </div>
+
+            <div class="fb-main">
+
+                <aside class="fb-media">
+                    <div class="fb-media-inner">
+                        <img id="tag_deckImg" class="fb-card-img" src="" alt=".">
+                        <div class="fb-zoom-hint"></div>
+                    </div>
+                </aside>
+
+                <section class="fb-panel">
+
+                    <div class="fb-panel-header">
+                        <h2 id="fb-panel-title">Informações</h2>
+                    </div>
+
+                    <div class="fb-panel-body">
+
+                        <div class="fb-panel-section is-active" data-section="info">
+
+                            <div id="categoriesContainer" class="categories-container"></div>
+
+                            <div class="fb-meta-grid">
+                                <div class="fb-meta">
+                                    <div class="k">Nome</div>
+                                    <div class="v" id="tag_deckName"></div>
+                                </div>
+                                <div class="fb-meta">
+                                    <div class="k">Estilo</div>
+                                    <div class="v" id="tag_deckStyle"></div>
+                                </div>
+                                <div class="fb-meta">
+                                    <div class="k">Arquétipo Principal</div>
+                                    <div class="v" id="tag_deckArchetype"></div>
+                                </div>
+                                <div class="fb-meta">
+                                    <div class="k">Arquétipo de Apoio</div>
+                                    <div class="v" id="tag_deckArchetype2"></div>
+                                </div>
+                                <div class="fb-meta">
+                                    <div class="k">Nível de Poder </div>
+                                    <div class="v">
+                                        <text id="tag_deckLevel"></text> <i style="color: #FFD700; font-size: 12px;"
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="fb-meta">
+                                    <div class="k">Custo Médio</div>
+                                    <div class="v">
+                                        <text id="tag_deckMedCost"></text>
+                                        <text id="tag_deckMedCostComparison"></text>
+                                    </div>
+                                </div>
+                                <div class="fb-meta">
+                                    <div class="k">Força Média</div>
+                                    <div class="v">
+                                        &#9876; <text id="tag_deckStrength"></text>
+                                        <text id="tag_deckStrengthComparison"></text>
+                                    </div>
+                                </div>
+                                <div class="fb-meta">
+                                    <div class="k">Resistência Média</div>
+                                    <div class="v">
+                                        &#10070; <text id="tag_deckResistence"></text>
+                                        <text id="tag_deckResistanceComparison"></text>
+                                    </div>
+                                </div>
+                                <div class="fb-meta">
+                                    <div class="k">Heróis</div>
+                                    <div class="v">
+                                        <text id="tag_deckQtdHero"></text>
+                                        <text id="tag_deckQtdHeroComparison"></text> |
+
+                                        <text id="tag_deckCostHero"></text>
+                                        <text id="tag_deckCostHeroComparison"></text>
+                                    </div>
+                                </div>
+                                <div class="fb-meta">
+                                    <div class="k">Milagres</div>
+                                    <div class="v">
+                                        <text id="tag_deckQtdMiracle"></text>
+                                        <text id="tag_deckQtdMiracleComparison"></text> |
+
+                                        <text id="tag_deckCostMiracle"></text>
+                                        <text id="tag_deckCostMiracleComparison"></text>
+                                    </div>
+                                </div>
+                                <div class="fb-meta">
+                                    <div class="k">Artefatos</div>
+                                    <div class="v">
+                                        <text id="tag_deckQtdArtifact"></text>
+                                        <text id="tag_deckQtdArtifactComparison"></text> |
+
+                                        <text id="tag_deckCostArtifact"></text>
+                                        <text id="tag_deckCostArtifactComparison"></text>
+                                    </div>
+                                </div>
+                                <div class="fb-meta">
+                                    <div class="k">Pecados</div>
+                                    <div class="v">
+                                        <text id="tag_deckQtdSin"></text>
+                                        <text id="tag_deckQtdSinComparison"></text> |
+
+                                        <text id="tag_deckCostSin"></text>
+                                        <text id="tag_deckCostSinComparison"></text>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <style>
+                                .categories-container {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    gap: 10px;
+                                    margin: 20px;
+                                }
+
+                                .category-item {
+                                    background-color: #33334d;
+                                    color: #ffffff;
+                                    border-radius: 10px;
+                                    padding: 10px 20px;
+                                    display: flex;
+                                    align-items: center;
+                                    font-family: Arial, sans-serif;
+                                    font-weight: bold;
+                                    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+                                    cursor: pointer;
+                                }
+
+                                .category-item.green {
+                                    border: 2px solid #4caf50;
+                                }
+
+                                .category-item.red {
+                                    border: 2px solid #e53637;
+                                }
+
+                                .category-item:hover {
+                                    transform: scale(1.1);
+                                    box-shadow: 0 0 10px;
+                                }
+
+                                .category-item.green:hover,
+                                .category-item.green.selected {
+                                    background-color: #4caf50;
+                                    box-shadow: 0 0 10px #4caf50;
+                                }
+
+                                .category-item.red:hover,
+                                .category-item.red.selected {
+                                    background-color: #e53637;
+                                    box-shadow: 0 0 10px #e53637;
+                                }
+
+                                .category-item input {
+                                    font-size: 1rem;
+                                    border: none;
+                                    background: none;
+                                    margin: 0;
+                                    padding: 0;
+                                    flex: 1;
+                                    color: #ffffff;
+                                    outline: none;
+                                    box-shadow: none;
+                                    appearance: none;
+                                }
+
+                                .deck-grid {
+                                    display: grid;
+                                    grid-template-columns: repeat(10, 1fr);
+                                    /* 10 colunas por linha */
+                                    gap: 5px;
+                                    /* Espaçamento entre os cards */
+                                }
+
+                                .card-item {
+                                    width: 100%;
+                                    /* Garante que os itens ocupem o espaço corretamente */
+                                    text-align: center;
+                                    padding: 5px;
+                                }
+                            </style>
+
+                            <!-- FontAwesome -->
+                            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+                                rel="stylesheet">
+
+                        </div>
+
+                        <div class="fb-panel-section" data-section="decklist">
+
+                            <div class="fb-panel-header">
+                                <h2>Extra Deck</h2>
+                            </div>
+                            <div class="fb-panel-body">
+                                <div class="row" id="extraDeckList"></div>
+                            </div>
+
+                            <div class="fb-panel-header">
+                                <h2>Main Deck</h2>
+                            </div>
+                            <div class="fb-panel-body">
+                                <div class="row" id="deckCards"></div>
+                            </div>
+
+                        </div>
+
+                        <div class="fb-panel-section" data-section="alternatives">
+                            <div class="fb-panel-body">
+                                <div class="row" id="sideboardList"></div>
+                            </div>
+                        </div>
+
+                        <!-- SEÇÃO DESCRIPTION CORRIGIDA -->
+
+                        <div class="fb-panel-section" data-section="description">
+
+                            <!-- Mensagem única quando não houver contexto -->
+                            <div id="deck_noContextMessage" class="fb-muted" style="display:none; margin:20px 0;">
+                                Este deck ainda não possui referências estratégicas.
+                            </div>
+
+                            <!-- Plano de Jogo -->
+                            <div class="deck-section" id="section_gamePlan">
+                                <div class="fb-panel-header">
+                                    <h2>Plano de Jogo</h2>
+                                </div>
+                                <div class="fb-panel-body">
+                                    <div id="deck_gamePlan"></div>
+                                </div>
+                            </div>
+
+                            <!-- Mão Inicial -->
+                            <div class="deck-section" id="section_openingHand">
+                                <div class="fb-panel-header">
+                                    <h2>Mão Inicial</h2>
+                                </div>
+                                <div class="fb-panel-body">
+                                    <div id="deck_openingHand"></div>
+                                </div>
+                            </div>
+
+                            <!-- Como Jogar -->
+                            <div class="deck-section" id="section_howToPlay">
+                                <div class="fb-panel-header">
+                                    <h2>Como Jogar</h2>
+                                </div>
+                                <div class="fb-panel-body">
+                                    <div id="deck_howToPlay"></div>
+                                </div>
+                            </div>
+
+                            <!-- Pontos Fortes -->
+                            <div class="deck-section" id="section_strengths">
+                                <div class="fb-panel-header">
+                                    <h2>Pontos Fortes</h2>
+                                </div>
+                                <div class="fb-panel-body">
+                                    <ul id="deck_strengths"></ul>
+                                </div>
+                            </div>
+
+                            <!-- Pontos Fracos -->
+                            <div class="deck-section" id="section_weaknesses">
+                                <div class="fb-panel-header">
+                                    <h2>Pontos Fracos</h2>
+                                </div>
+                                <div class="fb-panel-body">
+                                    <ul id="deck_weaknesses"></ul>
+                                </div>
+                            </div>
+
+                            <!-- Condições de Vitória -->
+                            <div class="deck-section" id="section_winConditions">
+                                <div class="fb-panel-header">
+                                    <h2>Condições de Vitória</h2>
+                                </div>
+                                <div class="fb-panel-body">
+                                    <ul id="deck_winConditions"></ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+            <section class="fb-panel fb-main-panel" data-fb-panel="decklist">
+                <div class="fb-panel-header">
+                    <h2>Rulings</h2>
+                </div>
+                <div class="fb-panel-body">
+                    <div class="fb-textbox">
+                        <div id="tag_cardText"></div>
+                    </div>
+                    <div style="height:10px;"></div>
+                    <div class="fb-textbox">
+                        <div class="dim">Efeitos</div>
+                        <div id="tag_cardEffect"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="fb-panel fb-main-panel" data-fb-panel="alternatives">
+                <div class="fb-panel-header">
+                    <h2>Referências</h2>
+                </div>
+                <div class="fb-panel-body">
+                    <div class="fb-textbox">
+                        <div id="tag_cardFlavor"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="fb-panel fb-main-panel" data-fb-panel="related-cards">
+                <div class="fb-panel-header">
+                    <h2>Cartas Relacionadas</h2>
+                </div>
+                <div class="fb-panel-body">
+                    <div class="row" id="relatedCardsList"></div>
+                </div>
+            </section>
+
+            <section class="fb-panel fb-main-panel" data-fb-panel="related-decks">
+                <div class="fb-panel-header">
+                    <h2>Melhores Decks</h2>
+                </div>
+                <div class="fb-panel-body">
+                    <div class="row fb-decks-row" id="related-decks-container"></div>
+                </div>
+            </section>
+
+        </div>
+        </div>
+    </section>
+    <!-- Anime Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+        <div class="page-up">
+            <a href="#" id="scrollToTopButton"><span class="arrow_carrot-up"></span></a>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer__logo">
+                        <a href="./index.html"><img src="img/logo.png" alt="" style="max-height: 50px;"></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="footer__nav">
+                        <ul>
+                            <li class="active"><a href="./index.html">Homepage</a></li>
+                            <li><a href="./card-list.html">Lista de Cards</a></li>
+                            <li><a href="./deck-meta.html">Decks do Meta</a></li>
+                            <li><a href="http://www.faithbattleloja.com.br/">Loja</a></li>
+                            <!-- <li><a href="./blog.html">Our Blog</a></li> -->
+                            <!-- <li><a href="#">Contacts</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved | This template
+                        is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
+                            target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Search model Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch"><i class="icon_close"></i></div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search model end -->
+
+    <!-- Js Plugins -->
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="integrations/utils.js"></script>
+    <script src="integrations/analysis.js"></script>
+    <script src="integrations/deck-details.js"></script>
+
+</body>
+
+</html>

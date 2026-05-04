@@ -1,0 +1,462 @@
+[
+    {
+        "name": "Lázaro de Betânia",
+        "type": "Herói de Fé",
+        "subtype": "-",
+        "categories": "Compra",
+        "cost": 4,
+        "strength": 2,
+        "resistence": 2,
+        "collection": "PDJ"
+    },
+    {
+        "name": "José de Belém",
+        "type": "Herói de Fé",
+        "subtype": "-",
+        "categories": "Buscador",
+        "cost": 1,
+        "strength": 0,
+        "resistence": 1,
+        "collection": "PDJ"
+    },
+    {
+        "name": "João Batista",
+        "type": "Herói de Fé",
+        "subtype": "-",
+        "categories": "Instrução",
+        "cost": 2,
+        "strength": 3,
+        "resistence": 1,
+        "collection": "PDJ"
+    },
+    {
+        "name": "José de Arimatéia",
+        "type": "Herói de Fé",
+        "subtype": "-",
+        "categories": "Descarte Próprio;Buscador",
+        "cost": 2,
+        "strength": 3,
+        "resistence": 2,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Isabel",
+        "type": "Herói de Fé",
+        "subtype": "-",
+        "categories": "Seleção de Cartas",
+        "cost": 2,
+        "strength": 1,
+        "resistence": 2,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Sacerdote Zacarias",
+        "type": "Herói de Fé",
+        "subtype": "-",
+        "categories": "Lança",
+        "cost": 1,
+        "strength": 3,
+        "resistence": 3,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Nicodemos",
+        "type": "Herói de Fé",
+        "subtype": "-",
+        "categories": "Recapitulação",
+        "cost": 1,
+        "strength": 1,
+        "resistence": 1,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Maria de Betânia",
+        "type": "Herói de Fé",
+        "subtype": "-",
+        "categories": "Santificação",
+        "cost": 1,
+        "strength": 0,
+        "resistence": 2,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Marta de Betânia",
+        "type": "Herói de Fé",
+        "subtype": "-",
+        "categories": "Amplificação",
+        "cost": 1,
+        "strength": 0,
+        "resistence": 2,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Joana de Cuza",
+        "type": "Herói de Fé",
+        "subtype": "-",
+        "categories": "Buscador",
+        "cost": 3,
+        "strength": 1,
+        "resistence": 1,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Susana",
+        "type": "Herói de Fé",
+        "subtype": "-",
+        "categories": "Buscador;Modificação",
+        "cost": 3,
+        "strength": 1,
+        "resistence": 1,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Salomé",
+        "type": "Herói de Fé",
+        "subtype": "-",
+        "categories": "Compra;Modificação",
+        "cost": 3,
+        "strength": 1,
+        "resistence": 1,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Ancião Simeão",
+        "type": "Herói de Fé",
+        "subtype": "-",
+        "categories": "Escudo;Santificação",
+        "cost": 1,
+        "strength": 0,
+        "resistence": 1,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Profetisa Ana",
+        "type": "Herói de Fé",
+        "subtype": "-",
+        "categories": "Santificação;Compra",
+        "cost": 2,
+        "strength": 1,
+        "resistence": 1,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Zebedeu e Alfeu",
+        "type": "Herói de Fé",
+        "subtype": "-",
+        "categories": "Amplificação;Modificação",
+        "cost": 3,
+        "strength": 2,
+        "resistence": 2,
+        "collection": "PDJ"
+    },
+    {
+        "name": "José, Pai de Jesus",
+        "type": "Herói de Fé",
+        "subtype": "Lendário",
+        "categories": "Buscador",
+        "cost": 1,
+        "strength": 1,
+        "resistence": 1,
+        "collection": "PDJ"
+    },
+    {
+        "name": "João, Voz do Deserto",
+        "type": "Herói de Fé",
+        "subtype": "Lendário",
+        "categories": "Instrução",
+        "cost": 2,
+        "strength": 4,
+        "resistence": 1,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Lázaro, Ressuscitado",
+        "type": "Herói de Fé",
+        "subtype": "Lendário",
+        "categories": "",
+        "cost": 4,
+        "strength": 3,
+        "resistence": 3,
+        "collection": "PDJ"
+    },
+    {
+        "name": "As Três Coadjutoras",
+        "type": "Herói de Fé",
+        "subtype": "Lendário",
+        "categories": "Modificação",
+        "cost": 3,
+        "strength": 2,
+        "resistence": 2,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Isabel, Mãe do Profeta",
+        "type": "Herói de Fé",
+        "subtype": "Lendário",
+        "categories": "Amplificação",
+        "cost": 2,
+        "strength": 2,
+        "resistence": 2,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Luz da Esperança",
+        "type": "Artefato",
+        "subtype": "-",
+        "categories": "Buscador;Santificação",
+        "cost": 1,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Os três presentes",
+        "type": "Artefato",
+        "subtype": "-",
+        "categories": "Santificação;Compra;Buscador",
+        "cost": 0,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Oferta Humilde",
+        "type": "Artefato",
+        "subtype": "-",
+        "categories": "Santificação;Compra",
+        "cost": 0,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Altar do Incenso",
+        "type": "Artefato",
+        "subtype": "-",
+        "categories": "Santificação",
+        "cost": 2,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Gafanhotos e Mel",
+        "type": "Artefato",
+        "subtype": "-",
+        "categories": "Modificação",
+        "cost": 0,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "O Livro de Isaías",
+        "type": "Artefato",
+        "subtype": "-",
+        "categories": "Compra; Seleção de Cartas",
+        "cost": 2,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Água em Vinho",
+        "type": "Milagre",
+        "subtype": "-",
+        "categories": "Transformação",
+        "cost": 2,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Crescer em Sabedoria",
+        "type": "Milagre",
+        "subtype": "-",
+        "categories": "Conhecimento",
+        "cost": 4,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Santíssima Trindade",
+        "type": "Milagre",
+        "subtype": "-",
+        "categories": "Compra;Santificação;Amplificação;Proteção",
+        "cost": 9,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Berço do Destino",
+        "type": "Milagre",
+        "subtype": "-",
+        "categories": "Modificação",
+        "cost": 1,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Hosana",
+        "type": "Milagre",
+        "subtype": "-",
+        "categories": "Buscador",
+        "cost": 2,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Emanuel",
+        "type": "Milagre",
+        "subtype": "-",
+        "categories": "Seleção de Cartas; Santificação",
+        "cost": 1,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Desprezo pelos seus",
+        "type": "Milagre",
+        "subtype": "-",
+        "categories": "Anulação",
+        "cost": 1,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Kenosis",
+        "type": "Milagre",
+        "subtype": "-",
+        "categories": "Remoção",
+        "cost": 1,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Mesa da Misericórdia",
+        "type": "Milagre",
+        "subtype": "-",
+        "categories": "",
+        "cost": 1,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Extermínio dos Puros",
+        "type": "Pecado",
+        "subtype": "-",
+        "categories": "Descarte Inimigo",
+        "cost": 1,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Incredulidade",
+        "type": "Pecado",
+        "subtype": "-",
+        "categories": "Dano; Supressão",
+        "cost": 1,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Juramento Imprudente",
+        "type": "Pecado",
+        "subtype": "-",
+        "categories": "Confusão",
+        "cost": 3,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Mercado Profano",
+        "type": "Pecado",
+        "subtype": "-",
+        "categories": "Juízo; Dano",
+        "cost": 3,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Deserto da Tentação",
+        "type": "Local",
+        "subtype": "-",
+        "categories": "Descarte Inimigo; Descarte Próprio; Dano; Santificação",
+        "cost": 1,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Belém",
+        "type": "Local",
+        "subtype": "-",
+        "categories": "Santificação",
+        "cost": 1,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Getsêmani",
+        "type": "Local",
+        "subtype": "-",
+        "categories": "Remoção; Santificação",
+        "cost": 1,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Deserto da Judéia",
+        "type": "Local",
+        "subtype": "-",
+        "categories": "Santificação",
+        "cost": 2,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Maria, Mãe de Jesus",
+        "type": "Herói de Fé",
+        "subtype": "Lendário",
+        "categories": "Buscador",
+        "cost": 2,
+        "strength": 2,
+        "resistence": 2,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Sono sereno",
+        "type": "Milagre",
+        "subtype": "-",
+        "categories": "Proteção",
+        "cost": 1,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    },
+    {
+        "name": "Lágrimas do Messias",
+        "type": "Milagre",
+        "subtype": "-",
+        "categories": "Buscador",
+        "cost": 1,
+        "strength": 0,
+        "resistence": 0,
+        "collection": "PDJ"
+    }
+]

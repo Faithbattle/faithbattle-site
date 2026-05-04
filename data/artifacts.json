@@ -1,0 +1,2831 @@
+[
+  {
+    "name": "Arca de Noé",
+    "text": "O herói equipado com Arca de Noé torna-se Indestrutível como efeito estático, o que significa que ele não pode ser destruído por efeitos de destruição e todo o dano a ele é prevenido; Se o herói equipado sair do campo, o efeito cessa imediatamente.",
+    "type": "Artefato",
+    "subtype": "-",
+    "sinergies": "21,46",
+    "categories": "Equipamento;Modificação",
+    "cost": 5,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Equipável",
+    "keywords": "Indestrutível",
+    "number": 22,
+    "collection": "APH",
+    "date": "2023-12-01",
+    "img": "img/artefatos/22.png",
+    "ocurrences": 0,
+    "ocurrencesInSides": 1,
+    "stars": "0.5",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 100,
+        "roundedWidth": 100,
+        "width": 101
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 50
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 50
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ]
+  },
+  {
+    "name": "Espada do Espírito",
+    "text": "Contando como uma das seis cartas da Armadura de Deus, o herói equipado recebe +1 de Força e +0 de Resistência e não pode ser bloqueado normalmente ao ser declarado como atacante; Esses efeitos estáticos se mantêm enquanto a carta estiver equipada.",
+    "type": "Artefato",
+    "subtype": "Lendário",
+    "categories": "Equipamento;Modificação;Evasão",
+    "cost": 3,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Equipável",
+    "keywords": "Imbloqueável",
+    "number": 23,
+    "collection": "APH",
+    "date": "2023-12-01",
+    "img": "img/artefatos/23.png",
+    "ocurrences": 1,
+    "ocurrencesInSides": 5,
+    "stars": "1.4",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 80,
+        "roundedWidth": 80,
+        "width": 81
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 20,
+        "roundedWidth": 20,
+        "width": 20
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 20,
+        "roundedWidth": 20,
+        "width": 20
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 10,
+        "roundedWidth": 10,
+        "width": 10
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 20,
+        "roundedWidth": 20,
+        "width": 20
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 10,
+        "roundedWidth": 10,
+        "width": 10
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 20,
+        "roundedWidth": 20,
+        "width": 20
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 20,
+        "roundedWidth": 20,
+        "width": 20
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ]
+  },
+  {
+    "name": "Escudo da Fé",
+    "text": "Contando como uma das seis cartas da Armadura de Deus, o herói equipado recebe +0 de Força e +2 de Resistência de forma estática.",
+    "type": "Artefato",
+    "subtype": "Lendário",
+    "categories": "Equipamento;Amplificação",
+    "cost": 1,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Equipável",
+    "keywords": "",
+    "number": 24,
+    "collection": "APH",
+    "date": "2023-12-01",
+    "img": "img/artefatos/24.png",
+    "ocurrences": 1,
+    "ocurrencesInSides": 3,
+    "stars": "1.4",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 66.66666666666666,
+        "roundedWidth": 67,
+        "width": 68
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 33.33333333333333,
+        "roundedWidth": 33,
+        "width": 33
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 16
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 33.33333333333333,
+        "roundedWidth": 33,
+        "width": 33
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ]
+  },
+  {
+    "name": "Cajado de Moisés",
+    "text": "O herói equipado recebe +1 de Força e +0 de Resistência como efeito estático; Adicionalmente, se Moisés estiver equipado com este artefato, os milagres que você jogar terão seu custo reduzido em 1S (sabedoria), sem que o custo seja reduzido abaixo de 0S.",
+    "type": "Artefato",
+    "subtype": "-",
+    "sinergies": "1",
+    "categories": "Equipamento;Instrução",
+    "cost": 2,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Equipável",
+    "keywords": "",
+    "number": 25,
+    "collection": "APH",
+    "date": "2023-12-01",
+    "img": "img/artefatos/25.png",
+    "ocurrences": 1,
+    "ocurrencesInSides": 2,
+    "stars": "1.4",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 1
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 100,
+        "roundedWidth": 100,
+        "width": 100
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 50
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ]
+  },
+  {
+    "name": "Couraça da Justiça",
+    "text": "Contando como uma das seis cartas da Armadura de Deus, o herói equipado recebe +2 de Força e +2 de Resistência de forma estática; Se o herói estiver equipado com todas as cartas da Armadura de Deus (Botas do Evangelho, Capacete da Salvação, Cinturão da Verdade, Couraça da Justiça, Escudo da Fé, Espada do Espírito), seu controlador ganha o jogo; Esse efeito condicional é verificado mesmo que Couraça da Justiça esteja na Zona de Preparação.",
+    "type": "Artefato",
+    "subtype": "Lendário",
+    "categories": "Equipamento;Amplificação",
+    "cost": 3,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Equipável",
+    "keywords": "",
+    "number": 26,
+    "collection": "APH",
+    "date": "2023-12-01",
+    "img": "img/artefatos/26.png",
+    "ocurrences": 1,
+    "ocurrencesInSides": 3,
+    "stars": "1.4",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 66.66666666666666,
+        "roundedWidth": 67,
+        "width": 68
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 33.33333333333333,
+        "roundedWidth": 33,
+        "width": 33
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 16
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 33.33333333333333,
+        "roundedWidth": 33,
+        "width": 33
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ]
+  },
+  {
+    "name": "Arca da Aliança",
+    "text": "Enquanto Arca da Aliança estiver na Zona de Batalha, todos os heróis sob seu controle ganham +1 de Força e +1 de Resistência de forma estática; Esse bônus é aplicado aos heróis da sua Zona de Batalha continuamente enquanto a carta estiver ativa no campo.",
+    "type": "Artefato",
+    "subtype": "-",
+    "categories": "Amplificação",
+    "cost": 5,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Global",
+    "keywords": "",
+    "number": 28,
+    "collection": "APH",
+    "date": "2023-12-01",
+    "img": "img/artefatos/28.png",
+    "ocurrences": 0,
+    "ocurrencesInSides": 3,
+    "stars": "0.5",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 100,
+        "roundedWidth": 100,
+        "width": 100
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 1
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 49
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ]
+  },
+  {
+    "name": "Botas do Evangelho",
+    "text": "Contando como uma das seis cartas da Armadura de Deus, quando o herói equipado é declarado como atacante (antes da declaração de bloqueadores), você compra uma carta; Esse efeito desencadeado ocorre sempre que o herói ataca.",
+    "type": "Artefato",
+    "subtype": "Lendário",
+    "categories": "Equipamento;Compra",
+    "cost": 2,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Equipável;Ataque",
+    "keywords": "Comprar",
+    "number": 43,
+    "collection": "APH",
+    "date": "2023-12-01",
+    "img": "img/artefatos/43.png",
+    "ocurrences": 2,
+    "ocurrencesInSides": 3,
+    "stars": "1.7",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 66.66666666666666,
+        "roundedWidth": 67,
+        "width": 68
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 33.33333333333333,
+        "roundedWidth": 33,
+        "width": 33
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 33.33333333333333,
+        "roundedWidth": 33,
+        "width": 33
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 33.33333333333333,
+        "roundedWidth": 33,
+        "width": 33
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ]
+  },
+  {
+    "name": "Capacete da Salvação",
+    "text": "Contando como uma das seis cartas da Armadura de Deus, o herói equipado recebe +1 de Força e +0 de Resistência de forma estática e não pode ser alvo de efeitos de pecados não-globais.",
+    "type": "Artefato",
+    "subtype": "Lendário",
+    "categories": "Equipamento;Proteção",
+    "cost": 1,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Equipável",
+    "keywords": "Alvo",
+    "number": 44,
+    "collection": "APH",
+    "date": "2023-12-01",
+    "img": "img/artefatos/44.png",
+    "ocurrences": 1,
+    "ocurrencesInSides": 2,
+    "stars": "1.4",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 51
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 50
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ]
+  },
+  {
+    "name": "Os 10 Mandamentos",
+    "text": "Enquanto Os Dez Mandamentos estiverem em jogo, todas as cartas que você jogar custam 1S a menos, mas nunca menos que 1S; Esse efeito estático interage com outros efeitos de redução de custo, podendo, em conjunto, reduzir o custo de cartas para 0S, se permitido.",
+    "type": "Artefato",
+    "subtype": "-",
+    "categories": "Instrução",
+    "cost": 6,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Global",
+    "keywords": "",
+    "number": 49,
+    "collection": "APH",
+    "date": "2023-12-01",
+    "img": "img/artefatos/49.png",
+    "ocurrences": 0,
+    "ocurrencesInSides": 1,
+    "stars": "0.5",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 1
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 100,
+        "roundedWidth": 100,
+        "width": 100
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 50
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 50
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ]
+  },
+  {
+    "name": "Cinturão da Verdade",
+    "text": "Contando como uma das seis cartas da Armadura de Deus, quando o herói equipado é declarado como atacante, o defensor revela a carta do topo do próprio baralho; Em seguida, o defensor perde pontos de fé igual ao custo da carta revelada, que é recolocada no topo do baralho; Esse efeito desencadeado ocorre antes da declaração de bloqueadores.",
+    "type": "Artefato",
+    "subtype": "Lendário",
+    "categories": "Equipamento;Dano",
+    "cost": 4,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Equipável;Ataque",
+    "keywords": "",
+    "number": 50,
+    "collection": "APH",
+    "date": "2023-12-01",
+    "img": "img/artefatos/50.png",
+    "ocurrences": 1,
+    "ocurrencesInSides": 2,
+    "stars": "1.4",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 51
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 50
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ]
+  },
+  {
+    "name": "Arco de Ismael",
+    "text": "Quando o herói equipado ataca ou bloqueia, ele causa seu dano antes dos demais combatentes, através de um efeito de substituição; Esse efeito não anula o dano dos outros heróis, mas pode impedir que o herói bloqueado (ou bloqueador) cause dano se for destruído previamente; Se o artefato estiver equipando Ismael, o herói recebe +1 de Resistência como efeito estático",
+    "type": "Artefato",
+    "subtype": "-",
+    "sinergies": "54",
+    "categories": "Equipamento;Modificação",
+    "cost": 3,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Equipável",
+    "keywords": "",
+    "number": 55,
+    "collection": "GEN",
+    "date": "2024-10-01",
+    "img": "img/artefatos/55.png",
+    "ocurrences": 0,
+    "ocurrencesInSides": 4,
+    "stars": "0.5",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 75,
+        "roundedWidth": 75,
+        "width": 76
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 24
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 12.5,
+        "roundedWidth": 13,
+        "width": 13
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 12.5,
+        "roundedWidth": 13,
+        "width": 13
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ]
+  },
+  {
+    "name": "Altar dos Patriarcas",
+    "text": "Sempre que você ganharia pontos de fé, ganhe esse valor acrescido de 1 ponto, através de um efeito de substituição desencadeado",
+    "type": "Artefato",
+    "subtype": "-",
+    "categories": "Santificação",
+    "cost": 4,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Global",
+    "keywords": "",
+    "number": 56,
+    "collection": "GEN",
+    "date": "2024-10-01",
+    "img": "img/artefatos/56.png",
+    "ocurrences": 1,
+    "ocurrencesInSides": 2,
+    "stars": "1.4",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 1
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 100,
+        "roundedWidth": 100,
+        "width": 100
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 50
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ]
+  },
+  {
+    "name": "Cântaros de Rebeca",
+    "text": "No início do turno, este artefato recebe um contador acumulativo, por efeito desencadeado; Sempre que você puder jogar uma carta de herói, pode optar por enviar os Cântaros de Rebeca para o Mar do Esquecimento e escolher uma carta de herói da sua mão cujo custo seja igual ou menor que o número de contadores presentes; O herói escolhido é jogado gratuitamente",
+    "type": "Artefato",
+    "subtype": "-",
+    "sinergies": "68",
+    "categories": "Instrução",
+    "cost": 1,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Global",
+    "keywords": "Enterrar",
+    "number": 57,
+    "collection": "GEN",
+    "date": "2024-10-01",
+    "img": "img/artefatos/57.png",
+    "ocurrences": 1,
+    "ocurrencesInSides": 2,
+    "stars": "1.4",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 100,
+        "roundedWidth": 100,
+        "width": 101
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 50
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ]
+  },
+  {
+    "name": "Espada Guardiã",
+    "text": "Este artefato não pode ser declarado como atacante (efeito estático), mas pode ser declarado como bloqueador; Destrói qualquer herói que tenha sofrido dano por ele",
+    "type": "Artefato",
+    "subtype": "Lendário",
+    "categories": "Escudo",
+    "cost": 1,
+    "strength": 1,
+    "resistence": 1,
+    "effects": "Global",
+    "keywords": "Destruir",
+    "number": 58,
+    "collection": "GEN",
+    "date": "2024-10-01",
+    "img": "img/artefatos/58.png",
+    "ocurrences": 4,
+    "ocurrencesInSides": 9,
+    "stars": "2.4",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 44.44444444444444,
+        "roundedWidth": 44,
+        "width": 45
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 55.55555555555556,
+        "roundedWidth": 56,
+        "width": 56
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 16
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 16
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ]
+  },
+  {
+    "name": "Punhal do Sacrifício",
+    "text": "O herói equipado recebe +1 de Força, de forma estática; Toda vez que o herói equipado causar dano a um jogador, você ganha 1 ponto de fé, por meio de um efeito desencadeado",
+    "type": "Artefato",
+    "subtype": "-",
+    "categories": "Equipamento;Santificação",
+    "cost": 2,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Equipável",
+    "keywords": "",
+    "number": 59,
+    "collection": "GEN",
+    "date": "2024-10-01",
+    "img": "img/artefatos/59.png",
+    "ocurrences": 1,
+    "ocurrencesInSides": 2,
+    "stars": "1.4",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 51
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 50
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ]
+  },
+  {
+    "name": "Árvore do Conhecimento",
+    "text": "No início e no fim do turno, seu controlador perde 1 ponto de fé, cada perda ocorrendo como efeito desencadeado; Até uma vez por turno (inclusive nos turnos dos oponentes), você pode ativar uma habilidade que envia um herói da Zona de Batalha para o Mar do Esquecimento; Se ativada, você perde pontos de fé iguais ao custo do herói, compra esse número de cartas e oculta o mesmo número de sabedorias (viradas para baixo e prontas para uso)",
+    "type": "Artefato",
+    "subtype": "Lendário",
+    "categories": "Recapitulação;Compra",
+    "cost": 4,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Global",
+    "keywords": "Alvo;Enterrar;Comprar;Ocultar Sabedorias",
+    "number": 97,
+    "collection": "GEN",
+    "date": "2024-10-01",
+    "img": "img/artefatos/97.png",
+    "ocurrences": 1,
+    "ocurrencesInSides": 2,
+    "stars": "1.4",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 100,
+        "roundedWidth": 100,
+        "width": 100
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 1
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 50
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ]
+  },
+  {
+    "name": "Árvore da Vida",
+    "text": "No final de cada turno, seu controlador ganha 1 ponto de fé e pode escolher um herói na Zona de Batalha para receber um marcador de Indestrutível; Enquanto o marcador estiver presente, o herói é Indestrutível (não pode ser destruído e tem todo o dano prevenido); Além disso, se você controlar a Árvore do Conhecimento em qualquer zona, esta carta é enviada para o Mar do Esquecimento como efeito estático",
+    "type": "Artefato",
+    "subtype": "Lendário",
+    "categories": "Santificação;Modificação",
+    "cost": 7,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Global",
+    "keywords": "Alvo;Indestrutível;Enterrar",
+    "number": 98,
+    "collection": "GEN",
+    "date": "2024-10-01",
+    "img": "img/artefatos/98.png",
+    "ocurrences": 1,
+    "ocurrencesInSides": 3,
+    "stars": "1.4",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 33.33333333333333,
+        "roundedWidth": 33,
+        "width": 34
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 66.66666666666666,
+        "roundedWidth": 67,
+        "width": 67
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 33.33333333333333,
+        "roundedWidth": 33,
+        "width": 33
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 33.33333333333333,
+        "roundedWidth": 33,
+        "width": 33
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      }
+    ]
+  },
+  {
+    "name": "Vestes da Vergonha",
+    "text": "Aplica um efeito estático que impede que o herói equipado seja alvo de Pecados; A qualquer momento em que um Milagre possa ser jogado, você pode ativar uma habilidade que enterra Vestes da Vergonha (enviando-a para o Mar do Esquecimento) e concede Indestrutível ao herói equipado até o fim do turno",
+    "type": "Artefato",
+    "subtype": "-",
+    "categories": "Equipamento;Proteção",
+    "cost": 1,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Equipável",
+    "keywords": "Alvo;Indestrutível;Enterrar",
+    "number": 119,
+    "collection": "GEN",
+    "date": "2024-10-01",
+    "img": "img/artefatos/119.png",
+    "ocurrences": 0,
+    "ocurrencesInSides": 4,
+    "stars": "0.5",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 51
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 50
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 24
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 12.5,
+        "roundedWidth": 13,
+        "width": 12
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 12.5,
+        "roundedWidth": 13,
+        "width": 13
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 37.5,
+        "roundedWidth": 38,
+        "width": 38
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 12.5,
+        "roundedWidth": 13,
+        "width": 13
+      }
+    ]
+  },
+  {
+    "name": "Altar da Prosperidade",
+    "text": "Sempre que um efeito faria você comprar duas ou mais cartas, em vez disso, compre aquela mesma quantidade de cartas e ganhe 1 ponto de fé, como um efeito de substituição desencadeado",
+    "type": "Artefato",
+    "subtype": "-",
+    "categories": "Santificação",
+    "cost": 4,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Global",
+    "keywords": "Comprar",
+    "number": 122,
+    "collection": "FIS",
+    "date": "2025-10-01",
+    "img": "img/artefatos/122.png",
+    "ocurrences": 0,
+    "ocurrencesInSides": 3,
+    "stars": "0.5",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 33.33333333333333,
+        "roundedWidth": 33,
+        "width": 34
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 66.66666666666666,
+        "roundedWidth": 67,
+        "width": 67
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 16
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 33.33333333333333,
+        "roundedWidth": 33,
+        "width": 33
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      }
+    ]
+  },
+  {
+    "name": "Cálice de Prata",
+    "text": "Quando este artefato entra no campo, escolha um herói alvo em qualquer zona de batalha e remova-o do jogo, como um efeito desencadeado; Quando este artefato sair do campo, para qualquer destino, o herói removido por ele retorna à mão do dono, como um efeito desencadeado; Durante o turno do dono do herói removido, como um efeito ativado, ele pode enterrar este artefato descartando da mão uma carta de herói cujo custo seja igual ao custo do herói removido desta forma",
+    "type": "Artefato",
+    "subtype": "-",
+    "categories": "Remoção;Descarte Inimigo",
+    "cost": 3,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Entrada",
+    "keywords": "Alvo;Descartar; Enterrar",
+    "number": 126,
+    "collection": "FIS",
+    "date": "2025-10-01",
+    "img": "img/artefatos/126.png",
+    "ocurrences": 1,
+    "ocurrencesInSides": 9,
+    "stars": "1.4",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 11.11111111111111,
+        "roundedWidth": 11,
+        "width": 11
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 55.55555555555556,
+        "roundedWidth": 56,
+        "width": 57
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 33.33333333333333,
+        "roundedWidth": 33,
+        "width": 33
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 27.77777777777778,
+        "roundedWidth": 28,
+        "width": 27
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 5.555555555555555,
+        "roundedWidth": 6,
+        "width": 5
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 5.555555555555555,
+        "roundedWidth": 6,
+        "width": 6
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 22.22222222222222,
+        "roundedWidth": 22,
+        "width": 22
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 5.555555555555555,
+        "roundedWidth": 6,
+        "width": 6
+      }
+    ]
+  },
+  {
+    "name": "Túnica Colorida",
+    "text": "Quando o herói equipado estiver atacando, como um efeito desencadeado, o jogador defensor deve declarar como bloqueadores desse herói todos os heróis aptos a bloquear em sua zona de batalha; Se for bloqueado por mais de um herói, na etapa de dano, o atacante escolhe um dos bloqueadores para sofrer o dano do ataque, enquanto ele recebe o dano de cada um dos heróis bloqueadores; Se este artefato estiver equipando José do Egito e ele fosse ser destruído por qualquer efeito, ele não é destruído e este artefato é enterrado em seu lugar, como um efeito de substituição desencadeado",
+    "type": "Artefato",
+    "subtype": "-",
+    "categories": "Equipamento;Evasão",
+    "cost": 2,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Equipável",
+    "keywords": "Enterrar",
+    "number": 130,
+    "collection": "FIS",
+    "date": "2025-10-01",
+    "img": "img/artefatos/130.png",
+    "ocurrences": 0,
+    "ocurrencesInSides": 5,
+    "stars": "0.5",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 40,
+        "roundedWidth": 40,
+        "width": 40
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 40,
+        "roundedWidth": 40,
+        "width": 41
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 20,
+        "roundedWidth": 20,
+        "width": 20
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 50
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 10,
+        "roundedWidth": 10,
+        "width": 10
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 10,
+        "roundedWidth": 10,
+        "width": 10
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 20,
+        "roundedWidth": 20,
+        "width": 20
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 10,
+        "roundedWidth": 10,
+        "width": 10
+      }
+    ]
+  },
+  {
+    "name": "Anel do Governador",
+    "text": "Na fase inicial de cada oponente, você pode descartar uma carta, como um efeito desencadeado opcional; Se o fizer, esse oponente compra uma carta, como um efeito ativado; Depois disso, até o fim do turno, sempre que ele comprar cartas, como um efeito desencadeado de substituição, ele compra aquela quantidade de cartas e você compra 1 carta; Isso inclui a carta da etapa de compra dele antes da fase de ação",
+    "type": "Artefato",
+    "subtype": "Lendário",
+    "categories": "Compra;Descarte Próprio",
+    "cost": 5,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Global",
+    "keywords": "Descartar;Comprar",
+    "number": 137,
+    "collection": "FIS",
+    "date": "2025-10-01",
+    "img": "img/artefatos/137.png",
+    "ocurrences": 2,
+    "ocurrencesInSides": 7,
+    "stars": "1.7",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 42.857142857142854,
+        "roundedWidth": 43,
+        "width": 44
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 57.14285714285714,
+        "roundedWidth": 57,
+        "width": 57
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 21.428571428571427,
+        "roundedWidth": 21,
+        "width": 22
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 14.285714285714285,
+        "roundedWidth": 14,
+        "width": 15
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 21.428571428571427,
+        "roundedWidth": 21,
+        "width": 21
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 21.428571428571427,
+        "roundedWidth": 21,
+        "width": 21
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 14.285714285714285,
+        "roundedWidth": 14,
+        "width": 14
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 7.142857142857142,
+        "roundedWidth": 7,
+        "width": 7
+      }
+    ]
+  },
+  {
+    "name": "Mandrágora Raiz",
+    "text": "Quando este artefato entra no campo, escolha um herói em qualquer zona de batalha e coloque-o na sua zona de batalha, como um efeito desencadeado; Ao fazê-lo, este artefato vai para a zona de batalha do controlador original do herói escolhido; Quando este turno terminar, o herói escolhido retorna para a zona de batalha do dono, como um efeito desencadeado, mas este artefato permanece sob o controle do controlador original do herói escolhido; O controlador deste artefato pode enterrá-lo, como um efeito ativado, para ganhar 2 pontos de fé",
+    "type": "Artefato",
+    "subtype": "-",
+    "categories": "Remoção",
+    "cost": 3,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Entrada",
+    "keywords": "Alvo;Enterrar",
+    "number": 138,
+    "collection": "FIS",
+    "date": "2025-10-01",
+    "img": "img/artefatos/138.png",
+    "ocurrences": 0,
+    "ocurrencesInSides": 8,
+    "stars": "0.5",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 51
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 31.25,
+        "roundedWidth": 31,
+        "width": 31
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 12.5,
+        "roundedWidth": 13,
+        "width": 13
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 6.25,
+        "roundedWidth": 6,
+        "width": 6
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 12.5,
+        "roundedWidth": 13,
+        "width": 13
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 6.25,
+        "roundedWidth": 6,
+        "width": 6
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 6.25,
+        "roundedWidth": 6,
+        "width": 6
+      }
+    ]
+  },
+  {
+    "name": "Celeiros do Egito",
+    "text": "Na sua fase final, como uma habilidade desencadeada, cada jogador pode revelar 1 sabedoria para comprar 1 carta, e não mais do que uma; Sempre que um jogador fizer isso, coloque um contador neste artefato; Quando este artefato tiver 7 ou mais contadores, ele deve ser enterrado, como um efeito desencadeado; Quando ele for enterrado desta forma, você compra até ter 7 cartas na mão",
+    "type": "Artefato",
+    "subtype": "-",
+    "categories": "Compra",
+    "cost": 2,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Global",
+    "keywords": "Comprar;Enterrar",
+    "number": 141,
+    "collection": "FIS",
+    "date": "2025-10-01",
+    "img": "img/artefatos/141.png",
+    "ocurrences": 3,
+    "ocurrencesInSides": 9,
+    "stars": "2.1",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 44.44444444444444,
+        "roundedWidth": 44,
+        "width": 45
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 55.55555555555556,
+        "roundedWidth": 56,
+        "width": 56
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 22.22222222222222,
+        "roundedWidth": 22,
+        "width": 21
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 11.11111111111111,
+        "roundedWidth": 11,
+        "width": 11
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 11.11111111111111,
+        "roundedWidth": 11,
+        "width": 11
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 5.555555555555555,
+        "roundedWidth": 6,
+        "width": 6
+      }
+    ]
+  },
+  {
+    "name": "Vara de Álamo",
+    "text": "A primeira vez de cada turno em que você fosse comprar cartas além da compra da sua etapa de compra, em vez disso, compre aquela quantidade de cartas acrescida de uma, como um efeito desencadeado de substituição",
+    "type": "Artefato",
+    "subtype": "-",
+    "categories": "Compra",
+    "cost": 3,
+    "strength": 0,
+    "resistence": 0,
+    "effects": "Global",
+    "keywords": "Comprar",
+    "number": 149,
+    "collection": "FIS",
+    "date": "2025-10-01",
+    "img": "img/artefatos/149.png",
+    "ocurrences": 1,
+    "ocurrencesInSides": 6,
+    "stars": "1.4",
+    "stylePercentage": [
+      {
+        "style": "Agressivo",
+        "backgroundColor": "#B22222",
+        "color": "#fff",
+        "icon": "fa-hand-back-fist",
+        "rawWidth": 0,
+        "roundedWidth": 0,
+        "width": 0
+      },
+      {
+        "style": "Equilibrado",
+        "backgroundColor": "#FFD700",
+        "color": "#000",
+        "icon": "fa-hand-scissors",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 51
+      },
+      {
+        "style": "Controlador",
+        "backgroundColor": "#1E90FF",
+        "color": "#fff",
+        "icon": "fa-hand",
+        "rawWidth": 50,
+        "roundedWidth": 50,
+        "width": 50
+      }
+    ],
+    "archetypePercentage": [
+      {
+        "archetype": "Batalha",
+        "backgroundColor": "#FF8C00",
+        "color": "#fff",
+        "icon": "fa-hand-fist",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Santificação",
+        "backgroundColor": "whitesmoke",
+        "color": "#000",
+        "icon": "fa-droplet",
+        "rawWidth": 8.333333333333332,
+        "roundedWidth": 8,
+        "width": 8
+      },
+      {
+        "archetype": "Combo",
+        "backgroundColor": "#800080",
+        "color": "#fff",
+        "icon": "fa-gears",
+        "rawWidth": 25,
+        "roundedWidth": 25,
+        "width": 25
+      },
+      {
+        "archetype": "Tempestade",
+        "backgroundColor": "#32CD32",
+        "color": "#fff",
+        "icon": "fa-poo-storm",
+        "rawWidth": 8.333333333333332,
+        "roundedWidth": 8,
+        "width": 8
+      },
+      {
+        "archetype": "Arsenal",
+        "backgroundColor": "#A8B3B4",
+        "color": "#000",
+        "icon": "fa-toolbox",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Supressão",
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "icon": "fa-ban",
+        "rawWidth": 16.666666666666664,
+        "roundedWidth": 17,
+        "width": 17
+      },
+      {
+        "archetype": "Aceleração",
+        "backgroundColor": "#8B4513",
+        "color": "#fff",
+        "icon": "fa-stopwatch",
+        "rawWidth": 8.333333333333332,
+        "roundedWidth": 8,
+        "width": 8
+      }
+    ]
+  }
+]
